@@ -3,7 +3,7 @@ THEOS_DEVICE_PORT = 2222
 
 ARCHS = arm64 arm64e
 
-TARGET := iphone:clang:14.5:14.0
+TARGET := iphone:clang:16.5:14.0
 THEOS_PACKAGE_SCHEME=rootless
 THEOS_PACKAGE_INSTALL_PREFIX=/var/jb
 INSTALL_TARGET_PROCESSES = lockdownd
